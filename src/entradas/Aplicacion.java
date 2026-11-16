@@ -2,10 +2,14 @@ package entradas;
 
 public class Aplicacion {
 	
+	
 	public Aplicacion() {
-		System.out.println(Entrada.getNumeroEntradasVendidas());
+		/*System.out.println(Entrada.getNumeroEntradasVendidas());
 		System.out.println(Entrada.AFORO);
-		//Entrada.AFORO=2000;
+		Entrada.AFORO=2000;*/
+		
+		Persona p1=new Persona(20,"123456789X");
+		System.out.println(Persona.EDADMINIMA);
 		
 
 		/* Esto era solo para ejemplificar una cosa.
