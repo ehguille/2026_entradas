@@ -3,12 +3,10 @@ package entradas;
 public class Aplicacion {
 	
 	public Aplicacion() {
-	
-		Entrada e0=new Entrada();
-		Entrada e1=new Entrada();
-		Entrada e3=new Entrada();
+		System.out.println(Entrada.getNumeroEntradasVendidas());
+		System.out.println(Entrada.AFORO);
+		//Entrada.AFORO=2000;
 		
-		System.out.println(e0.getNumeroEntrada());
 
 		/* Esto era solo para ejemplificar una cosa.
 		Persona p0=new Persona(18);
