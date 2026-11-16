@@ -2,7 +2,6 @@ package entradas;
 
 public class Aplicacion {
 	
-	
 	public Aplicacion() {
 		/*System.out.println(Entrada.getNumeroEntradasVendidas());
 		System.out.println(Entrada.AFORO);
