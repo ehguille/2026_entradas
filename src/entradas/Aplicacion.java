@@ -3,14 +3,12 @@ package entradas;
 public class Aplicacion {
 	
 	public Aplicacion() {
+	
+		Entrada e0=new Entrada();
+		Entrada e1=new Entrada();
+		Entrada e3=new Entrada();
 		
-		Entrada e100=new Entrada(100);
-		Entrada otraEntrada=new Entrada(100);
-		
-		int numeroEntrada=0;		
-		Entrada e0=new Entrada(numeroEntrada);
-		numeroEntrada++;
-		Entrada e1=new Entrada(numeroEntrada);
+		System.out.println(e0.getNumeroEntrada());
 
 		/* Esto era solo para ejemplificar una cosa.
 		Persona p0=new Persona(18);
